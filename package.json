@@ -1,0 +1,29 @@
+{
+  "name": "vue3-i18n",
+  "version": "0.1.0",
+  "description": "Source code to my blog article on how to build a multi-language Vue 3 app with Vite and Vue-I18n",
+  "author": {
+    "name": "Maurice Conrad",
+    "email": "maurice@bluepic.de"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "vue-i18n": "^9.1.10"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^0.4.0",
+    "@types/downloadjs": "^1.4.3",
+    "@types/marked": "^4.0.8",
+    "@types/node": "^18.15.5",
+    "@vitejs/plugin-vue": "^3.2.0",
+    "sass": "^1.59.3",
+    "typescript": "^5.0.2",
+    "vite": "^3.0.1",
+    "vue-tsc": "^1.2.0"
+  }
+}
